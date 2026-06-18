@@ -1,0 +1,40 @@
+.process__heading {
+  font-size: var(--fs-h1);
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.process__sub {
+  color: var(--text-secondary);
+  margin-bottom: 56px;
+  max-width: 480px;
+}
+
+.process__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-gap-md);
+  position: relative;
+}
+
+/* linha conectora entre cards (desktop) */
+.process__grid::before {
+  content: '';
+  position: absolute;
+  top: 64px;
+  left: calc(25% / 2);
+  right: calc(25% / 2);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--blue), transparent);
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .process__grid { grid-template-columns: repeat(2, 1fr); }
+  .process__grid::before { display: none; }
+}
+
+@media (max-width: 540px) {
+  .process__grid { grid-template-columns: 1fr; }
+}

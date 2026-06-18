@@ -1,0 +1,58 @@
+const projects = [
+  {
+    id: 'project-01',
+    name: 'Vértice Advocacia',
+    category: 'Site Institucional',
+    description: 'Site institucional para escritório de advocacia com foco em autoridade e captação de leads qualificados via formulário de consulta.',
+    image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=800&q=80',
+    link: '#',
+    tags: ['React', 'SEO', 'Formulário'],
+  },
+  {
+    id: 'project-02',
+    name: 'Studio Nordique',
+    category: 'Imobiliária',
+    description: 'Plataforma de imóveis com busca avançada, filtros dinâmicos e integração com WhatsApp para agendamento de visitas.',
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80',
+    link: '#',
+    tags: ['React', 'API', 'UX'],
+  },
+  {
+    id: 'project-03',
+    name: 'Sabor & Cia',
+    category: 'Restaurante',
+    description: 'Landing page para restaurante com cardápio digital, reservas online e galeria imersiva do ambiente.',
+    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80',
+    link: '#',
+    tags: ['Responsivo', 'Animações', 'CMS'],
+  },
+  {
+    id: 'project-04',
+    name: 'Pulso Fitness',
+    category: 'Studio Fitness',
+    description: 'Site de alta conversão para studio de treino funcional, com planos de matrícula e checkout integrado.',
+    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80',
+    link: '#',
+    tags: ['E-commerce', 'Performance', 'Mobile First'],
+  },
+  {
+    id: 'project-05',
+    name: 'Clínica Bemestar',
+    category: 'Saúde & Estética',
+    description: 'Site para clínica odontológica com agendamento online e otimização local para SEO.',
+    image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80',
+    link: '#',
+    tags: ['SEO Local', 'Agendamento', 'React'],
+  },
+  {
+    id: 'project-06',
+    name: 'Trama Studio',
+    category: 'E-commerce',
+    description: 'Loja virtual de moda autoral com vitrine visual forte, catálogo dinâmico e fluxo de compra otimizado.',
+    image: 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=800&q=80',
+    link: '#',
+    tags: ['E-commerce', 'React', 'Design System'],
+  },
+];
+
+export default projects;
